@@ -58,10 +58,6 @@ Denylist-->
 
 *.eu-irl-00001.s3.dualstack.eu-west-1.amazonaws.com
 
-*.myfinance.com
-
-*.cbsi.com
-
 *.rvapps.io
 
 *.acbsi.com
@@ -70,13 +66,9 @@ Denylist-->
 
 *.analytics.latlmes.com
 
-*.brave.com
-
 *.laptop-updates.brave.com
 
 *.mobile-data.s3.brave.com
-
-*.kinja.com
 
 *.location.services.mozilla.com
 
