@@ -39,6 +39,10 @@ Lightswitch05
 
 No Google
 
+No Facebook
+
+Anudeep's Blacklist
+
 
 Native Tracking Protection:
 
