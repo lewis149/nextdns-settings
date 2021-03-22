@@ -28,7 +28,7 @@
 ### Blocklists
 	1Hosts (Pro)
 	oisd
-        Lightswitch05
+Lightswitch05
         No Google
         No Facebook
         notracking
