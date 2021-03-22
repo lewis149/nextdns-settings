@@ -6,7 +6,7 @@
 ### Google Safe Browsing
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable Google Safe Browsing
 ### Cryptojacking Protection
-![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/disabled.svg) Enable Cryptojacking Protection
+![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable Cryptojacking Protection
 ### DNS Rebinding Protection
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable DNS Rebinding Protection
 ### IDN Homograph Attacks Protection
@@ -26,10 +26,18 @@
 
 # Privacy
 ### Blocklists
-	1Hosts (Lite)
+	1Hosts (Pro)
 	oisd
+        Lightswitch05
+        No Google
+        No Facebook
+        notracking
+        Anudeeps Blacklist
 ### Native Tracking Protection
-:radioactive: *Enabling can cause breakages; Does not bring visible advantages when using the suggested selection of Bloclists.*
+        Apple/iOS
+        Windows
+        Alexa
+        Roku
 ### Block Disguised Third-Party Trackers
 ![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Block Disguised Third-Party Trackers
 ### Allow Affiliate & Tracking Links
