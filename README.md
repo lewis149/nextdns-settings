@@ -52,10 +52,19 @@
 ***
 
 # Denylist
-	graph.facebook.com → DO NOT ADD when active FaceBook users
-	graph.instagram.com → DO NOT ADD when active FaceBook/Instagram users
-	pubnub.com
-
+	graph.facebook.com → DO NOT ADD if active Facebook users
+	graph.instagram.com → DO NOT ADD if active Facebook/Instagram users 
+        mtalk.google.com
+        alt1-mtalk.google.com
+        alt2-mtalk.google.com
+        alt3-mtalk.google.com
+        alt4-mtalk.google.com
+        alt5-mtalk.google.com
+        alt6-mtalk.google.com
+        alt7-mtalk.google.com
+        alt8-mtalk.google.com
+        alt9-mtalk.google.com
+        alt10-mtalk.google.com
 ***
 
 # Settings
