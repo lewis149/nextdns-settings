@@ -1,134 +1,63 @@
-# nextdns-settings
-
-Security-->
-
-
-Threat Intelligence Feeds - Enabled
-
-Google Safe Browsing - Disabled
-
-Cryptojacking Protection - Enabled
-
-DNS Rebinding Protection - Enabled
-
-IDN Homograph Attacks Protection - Enabled
-
-Typosquatting Protection - Enabled
-
-Domain Generation Algorithms (DGAs) Protection - Enabled
-
-Block Newly Registered Domains (NRDs) - Enabled
-
-Block Parked Domains - Enabled
-
-Block Top-Level Domains (TLDs) - None
-
-Block Child Sexual Abuse Material - Enabled 
-
-
-Privacy-->
-
-
-Blocklists:
-
-OISD
-
-notracking
-
-Lightswitch05 
-
-No Google
-
-No Facebook
-
-Anudeep's Blacklist
-
-
-Native Tracking Protection:
-
-Apple
-
-Windows 
-
-Samsung
-
-
-Block Disguised Third-Party Trackers - Enabled
-
-Allow Affiliate & Tracking Links - Disabled
-
-
-Denylist-->
-
-*.eu-irl-00001.s3.dualstack.eu-west-1.amazonaws.com
-
-*.rvapps.io
-
-*.acbsi.com
-
-*.sentry.io
-
-*.analytics.latlmes.com
-
-*.laptop-updates.brave.com
-
-*.mobile-data.s3.brave.com
-
-*.location.services.mozilla.com
-
-*.cognito-identity.us-east-1.amazonaws.com
-
-*.connect.facebook.net
-
-*.locate.measurementlab.net
-
-*.graph.facebook.com
-
-*.facebook.com
-
-*.mtalk.google.com
-
-*.alt1-mtalk.google.com
-
-*.alt2-mtalk.google.com
-
-*.alt3-mtalk.google.com
-
-*.alt4-mtalk.google.com
-
-*.alt5-mtalk.google.com
-
-*.alt6-mtalk.google.com
-
-*.alt7-mtalk.google.com
-
-*.alt8-mtalk.google.com
-
-*.alt9-mtalk.google.com
-
-*.alt10-mtalk.google.com
-
-
-Settings-->
-
-Logs - Enabled
-
-Log Client IPs - Enabled
-
-Log Domains - Enabled
-
-Retention - 1 Week
-
-Storage location - Switzerland
-
-
-Block Page - Enabled
-
-Anonymized EDNS Client Subnet - Enabled
-
-Cache Boost - Enabled
-
-CNAME Flattening - Enabled
-
-Handshake - Enabled
-
+***
+
+# Security
+### Threat Intelligence Feeds
+![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Use Threat Intelligence Feeds
+### Google Safe Browsing
+![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable Google Safe Browsing
+### Cryptojacking Protection
+![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/disabled.svg) Enable Cryptojacking Protection → :radioactive: *Enabling can cause breakages; Covered by suggested selection of Bloclists.*
+### DNS Rebinding Protection
+![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/disabled.svg) Enable DNS Rebinding Protection → :radioactive: *Enabling can cause breakages*
+### IDN Homograph Attacks Protection
+![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable Homograph Attacks Protection
+### Typosquatting Protection
+![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable Typosquatting Protection
+### Domain Generation Algorithms (DGAs) Protection
+![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable DGA Protection
+### Block Newly Registered Domains (NRDs)
+![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Block Newly Registered Domains (NRDs)
+### Block Parked Domains
+![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Block Parked Domains
+### Block Child Sexual Abuse Material
+![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Block Child Sexual Abuse Material
+
+***
+
+# Privacy
+### Blocklists
+	1Hosts (Lite)
+	oisd
+### Native Tracking Protection
+:radioactive: *Enabling can cause breakages; Does not bring visible advantages when using the suggested selection of Bloclists.*
+### Block Disguised Third-Party Trackers
+![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Block Disguised Third-Party Trackers
+### Allow Affiliate & Tracking Links
+![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Allow Affiliate & Tracking Links
+
+***
+
+# Parental Control
+### YouTube Restricted Mode
+![Disabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/disabled.svg) Enforce YouTube Restricted Mode → :radioactive: *Enabling can cause breakages*
+
+***
+
+# Denylist
+	graph.facebook.com → DO NOT ADD when active FaceBook users
+	graph.instagram.com → DO NOT ADD when active FaceBook/Instagram users
+	pubnub.com
+
+***
+
+# Settings
+### Block Page
+![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable Block Page
+### Anonymized EDNS Client Subnet
+![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable Anonymized EDNS Client Subnet
+### Cache Boost
+![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable Cache Boost
+### CNAME Flattening
+![Enabled](https://raw.githubusercontent.com/crssi/NextDNS-Config/main/icons/enabled.svg) Enable CNAME Flattening
+
+***
