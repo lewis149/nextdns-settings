@@ -52,8 +52,8 @@
 ***
 
 # Denylist
-	graph.facebook.com → DO NOT ADD if active Facebook users
-	graph.instagram.com → DO NOT ADD if active Facebook/Instagram users 
+        graph.facebook.con
+        graph.instagram.com
         mtalk.google.com
         alt1-mtalk.google.com
         alt2-mtalk.google.com
