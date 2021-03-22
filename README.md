@@ -26,9 +26,9 @@
 
 # Privacy
 ### Blocklists
-	1Hosts (Pro)
-	oisd
- Lightswitch05
+        1Hosts (Pro)
+        oisd
+        Lightswitch05
         No Google
         No Facebook
         notracking
