@@ -26,13 +26,10 @@
 
 # Privacy
 ### Blocklists
-        1Hosts (Pro)
         oisd
-        Lightswitch05
-        No Google
-        No Facebook
+        No Google - Optional
+        No Facebook - Optional
         notracking
-        Anudeeps Blacklist
 ### Native Tracking Protection
         Apple/iOS
         Windows
